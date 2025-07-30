@@ -146,9 +146,11 @@ const FormInputs = () => {
 							className="col-8 col-sm-7 col-md-8 rounded-pill border-0 px-4 p-2 c-brown fw-bold fs-5"
 							type="text"
 							placeholder="Item..."
+							onSubmit={addItem}
 						/>
 						<button
 							onClick={addItem}
+							onSubmit={addItem}
 							role="button"
 							className="btn btn-light border-blue bg-blue fs-5 px-3 rounded-pill fw-bold c-brown "
 						>

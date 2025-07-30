@@ -40,7 +40,7 @@ const MainFooter = memo(() => {
 
 	return (
 		<footer
-			className="bg-brown text-white py-4 mt-auto"
+			className="bg-brown text-white py-4 px-3 mt-auto"
 			role="contentinfo"
 			aria-label="Footer with contact information"
 		>
@@ -55,7 +55,7 @@ const MainFooter = memo(() => {
 
 						{/* Social media links */}
 						<nav
-							className="social-links"
+							className="social-links flex-wrap"
 							aria-label="Social media links"
 						>
 							{socialLinks.map((link, index) => (

@@ -54,7 +54,7 @@ const ShowList = ({data, removeItem, editItem, activeItem, packItem, clearList, 
 			</main>
             {/* Footer displaying the status of the packing list */}
 			<footer className="bg-blue">
-				<div className="container text-center py-5 fs-4 foot-font fw-bold fst-italic c-brown">
+				<div className="container text-center py-5 px-3 fs-4 foot-font fw-bold fst-italic c-brown">
 					{itemsNum === 0
 						? "Start adding some items to your packing list 🚀"
 						: `💼 You have ${itemsNum} items on your list, and you already packed ${packedCount} (${packedPercentage}%)`}

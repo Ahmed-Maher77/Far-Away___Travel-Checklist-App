@@ -2,6 +2,7 @@ import { memo } from "react";
 import "./TravelList.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import FormInputs from "./FormInputs";
+import MainFooter from "./MainFooter";
 
 const TravelList = memo(() => {
 	return (
@@ -25,6 +26,8 @@ const TravelList = memo(() => {
 
 			{/* Main content area */}
 			<FormInputs />
+
+			<MainFooter />
 		</main>
 	);
 });

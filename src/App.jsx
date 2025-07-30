@@ -31,7 +31,7 @@ function App() {
 			) : (
 				<>
 					<TravelList />
-					<MainFooter />
+					
 				</>
 			)}
 		</div>

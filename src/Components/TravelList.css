@@ -67,6 +67,14 @@ h1 {
 	font-weight: 400;
 	font-size: 4rem !important;
 }
+.list-item {
+	.fs-3 {
+		font-size: 1.2rem !important;
+		@media (min-width: 992px) {
+			font-size: 1.3rem !important;
+		}
+	}
+}
 .padd-sec {
 	padding: 40px 0;
 }

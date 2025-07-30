@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+:root {
+	--c-yellow: #f4a226;
+	--c-orange: #e5771f;
+	--c-blue: #76c7ad;
+	--c-dark-blue: #35a984;
+	--c-brown: #5a3e2b;
+	--c-offwhite: #ffebb3;
+	--c-white: #fff;
+}
+body {
+	font-family: "Quicksand", sans-serif !important;
+}
+.fwe-600 {
+	font-weight: 600 !important;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--c-brown);
+	border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+	background-color: #ccc;
+}
+.bg-yellow {
+	background-color: var(--c-yellow);
+}
+.bg-orange {
+	background-color: var(--c-orange);
+}
+.bg-blue {
+	background-color: var(--c-blue) !important;
+}
+.border-blue {
+	border-color: var(--c-blue) !important;
+}
+.btn.bg-blue:hover {
+	background-color: var(--c-dark-blue) !important;
+}
+.c-brown {
+	color: var(--c-brown) !important;
+}
+.bg-brown {
+	background-color: var(--c-brown) !important;
+}
+.m-h-200 {
+	min-height: 150px;
+}
+.h-40 {
+	height: 40px;
+}
+.bg-offwhite {
+	background-color: var(--c-offwhite) !important;
+}
+.c-offwhite {
+	color: var(--c-offwhite) !important;
+}
+.btn.bg-offwhite:hover {
+	background-color: var(--c-yellow) !important;
+}
+h1 {
+	font-family: "Monoton", sans-serif;
+	font-weight: 400;
+	font-size: 4rem !important;
+}
+.padd-sec {
+	padding: 40px 0;
+}
+.dimension-20 {
+	width: 20px !important;
+	height: 20px !important;
+}
+.list-item.active {
+	background-color: #0009;
+}
+.h-100v {
+	height: 100vh !important;
+}
+.foot-font {
+    font-size: 1.2rem !important;
+}
+
+@media (min-width: 992px) {
+	h1 {
+		font-size: 6rem !important;
+	}
+	div.foot-font {
+		font-size: 1.2rem !important;
+	}
+}
+
+/* Footer Styles */
+.social-links a {
+	transition: all 0.3s ease;
+	font-weight: 500;
+}
+
+.social-links a:hover {
+	color: var(--c-yellow) !important;
+	transform: translateY(-2px);
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+	box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            img {
+                width: 20px;
+            }
+        }
+    }
+}

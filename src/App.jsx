@@ -1,10 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
 import TravelList from "./Components/TravelList";
 import Loader from "./Components/Loader/Loader";
-import MainFooter from "./Components/MainFooter";
 
 // Constants
-const LOADING_DURATION = 2000; // ms
+const LOADING_DURATION = 1800; // ms
 
 function App() {
 	const [isLoading, setIsLoading] = useState(true);

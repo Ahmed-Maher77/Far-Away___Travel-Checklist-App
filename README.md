@@ -6,7 +6,7 @@ A travel list application built with React.js to help users organize and track t
 
 ## 🌐 Demo (Live Preview)
 
-**👉 Live Website:** [https://far-away-travel-checklist.netlify.app/](https://far-away-travel-checklist.netlify.app/)
+**👉 Live Website:** [https://far-away-travel-checklist.netlify.app](https://far-away-travel-checklist.netlify.app/)
 
 ---
 
